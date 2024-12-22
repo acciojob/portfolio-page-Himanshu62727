@@ -1,16 +1,91 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #0073b1;
+            color: white;
+        }
+        img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #e2e2e2;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
 
+		li:hover {
+			height: 50px;
+			background-color: red;
+		}
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<header>
+    <img src="https://i.pinimg.com/236x/04/0e/8f/040e8fcc62f877fcb18023f214e53316.jpg" alt="Your Image">
+    <h1>Himanshu Singh</h1>
+    <p><a href="www.linkedin.com/in/himanshusingh2k" target="_blank">LinkedIn Profile</a></p>
+</header>
+
+<div class="content">
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Here are some of the skills I have acquired:</p>
+        <ul>
+			<li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>React & Redux</li>
+            <li>NodeJs</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Project 1: Personal Portfolio Website</li>
+            <li>Project 2: E-commerce Platform</li>
+            <li>Project 3: Task Manager Application</li>
+            <li>Project 4: Chatbot using ReactJs</li>
+        </ul>
+    </section>
+</div>
 
 </body>
-
 </html>
